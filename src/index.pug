@@ -1,0 +1,54 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    link(href=require('./style.scss') rel='stylesheet')
+    link(href=require('./assets/favicon.ico') rel='shortcut icon' type='image/x-icon')
+
+  body
+    .header
+    .list__wrapper
+      #list
+      //- #phone
+      //-   .media-container
+      //-     video#remoteVideo.remote(playsinline="" autoplay="" width="300")
+      //-     video#localVideo.local(playsinline="" autoplay="" muted="" width="300")
+      //-   .controls
+      //-     .c-block.controls__c-block
+      //-       .mic.c-block__mic
+      //-         i.mic__icon
+      //-         #mic__icon_active.mic__animation-container.mic__icon_active
+      //-           .mic__animation-outer
+      //-     .c-block.controls__c-block#controls__idle
+      //-       .button#start-call
+      //-         span Видео вызов
+      //-       .button#start-call_audio()
+      //-         span Начать беседу
+      //-     .c-block.controls__c-block#controls__calling
+      //-       .button#call_mute()
+      //-         span mute
+      //-       .button.hangup#start-call_hangup()
+      //-         span Завершить
+      //-   #status(style="display:none;")
+      //-   .button#logout()
+      //-     span Выйти
+        
+      //-   audio#dialer-audio(style="display: none;")
+
+      //-   .controls__media.controls__media_top#controls-media
+      //-     .select 
+      //-       label(for="audioSource") Микрофон: 
+      //-         select#audioSource
+      //-     .select 
+      //-       label(for="audioOutput") Динамик: 
+      //-         select#audioOutput
+      //-     .select 
+      //-       label(for="videoSource") Камера: 
+      //-         select#videoSource
+
+      //- #auth-block.controls 
+      //-   .c-block.controls__c-block
+      //-     .button#login()
+      //-       span Старт
+
+    script(src=require('./main.ts'))

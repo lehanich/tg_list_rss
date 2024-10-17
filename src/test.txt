@@ -1,0 +1,72 @@
+{
+    "ok": true,
+    "result": [
+        {
+            "update_id": 21583539,
+            "channel_post": {
+                "message_id": 4,
+                "sender_chat": {
+                    "id": -1002439002346,
+                    "title": "Test Channel Art",
+                    "username": "art_basement",
+                    "type": "channel"
+                },
+                "chat": {
+                    "id": -1002439002346,
+                    "title": "Test Channel Art",
+                    "username": "art_basement",
+                    "type": "channel"
+                },
+                "date": 1729002717,
+                "photo": [
+                    {
+                        "file_id": "AgACAgIAAyEFAASRYDjqAAMEZw583cDqX_7CH7Xc_9ErJ2jDYIUAAhngMRvwfHBIVeGm_hq4Gp0BAAMCAANzAAM2BA",
+                        "file_unique_id": "AQADGeAxG_B8cEh4",
+                        "file_size": 1254,
+                        "width": 90,
+                        "height": 51
+                    },
+                    {
+                        "file_id": "AgACAgIAAyEFAASRYDjqAAMEZw583cDqX_7CH7Xc_9ErJ2jDYIUAAhngMRvwfHBIVeGm_hq4Gp0BAAMCAANtAAM2BA",
+                        "file_unique_id": "AQADGeAxG_B8cEhy",
+                        "file_size": 20969,
+                        "width": 320,
+                        "height": 180
+                    },
+                    {
+                        "file_id": "AgACAgIAAyEFAASRYDjqAAMEZw583cDqX_7CH7Xc_9ErJ2jDYIUAAhngMRvwfHBIVeGm_hq4Gp0BAAMCAAN4AAM2BA",
+                        "file_unique_id": "AQADGeAxG_B8cEh9",
+                        "file_size": 126139,
+                        "width": 800,
+                        "height": 450
+                    },
+                    {
+                        "file_id": "AgACAgIAAyEFAASRYDjqAAMEZw583cDqX_7CH7Xc_9ErJ2jDYIUAAhngMRvwfHBIVeGm_hq4Gp0BAAMCAAN5AAM2BA",
+                        "file_unique_id": "AQADGeAxG_B8cEh-",
+                        "file_size": 168408,
+                        "width": 959,
+                        "height": 540
+                    }
+                ],
+                "caption": "Иван Шишкин - выдающийся русский художник, мастер пейзажа, чьи картины наполнены живой природной красотой. Его работы восхищают своей реалистичностью и глубиной передачи деталей природы. Шишкин умел передать величие русской природы, ее таинственность и красоту. Каждая его картина - это настоящий шедевр, который погружает нас в атмосферу умиротворения и восхищения перед великолепием мира вокруг нас. Давайте вместе погрузимся в мир Шишкина и насладимся его великолепными пейзажами! 🌲🎨 #ИванШишкин #русскийхудожник #пейзаж",
+                "caption_entities": [
+                    {
+                        "offset": 489,
+                        "length": 11,
+                        "type": "hashtag"
+                    },
+                    {
+                        "offset": 501,
+                        "length": 16,
+                        "type": "hashtag"
+                    },
+                    {
+                        "offset": 518,
+                        "length": 7,
+                        "type": "hashtag"
+                    }
+                ]
+            }
+        }
+    ]
+}

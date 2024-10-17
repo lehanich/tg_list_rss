@@ -1,0 +1,53 @@
+@import  "./variables";
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background: #edeef0;
+  font-family: Arial;
+  margin: 0;
+}
+
+.list__wrapper {
+  padding: 2rem 15rem;
+}
+
+#list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 10rem;
+}
+
+.image {
+  width: 300px;
+
+}
+
+.hidden {
+  display: none;
+}
+
+.post {
+  background: #fff;
+  border-radius: 10px;
+  border-color: #dce1e6;
+  border-width: 1px;
+  margin-bottom: 20px;
+  padding: 25px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.text {
+  margin-top: 10px;
+  text-align: justify;
+}
